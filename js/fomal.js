@@ -3194,7 +3194,7 @@ if (localStorage.getItem("blogbg") != undefined) {
 } else {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://graph-teal-six.vercel.app/img/95025518_p0.jpg);
-    --darkmode-bg:url(https://graph-teal-six.vercel.app/img/88065547_p1.jpg);
+    --darkmode-bg: url(https://graph-teal-six.vercel.app/img/88065547_p1.jpg);
     --mobileday-bg: url(https://graph-teal-six.vercel.app/img/95025518_p0.jpg);
     --mobilenight-bg: url(https://graph-teal-six.vercel.app/img/88065547_p1.jpg);
   }`;
