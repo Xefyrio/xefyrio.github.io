@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Xefyrio🐦‍🔥")[0];
 }
 
 function scrollToTop() {
@@ -1113,27 +1113,46 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("28/12/2024 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
+    `欢迎来到Xefyrio🐦‍🔥の小家!`,
     `Future is now 🍭🍭🍭`,
     `
         
-███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
-██      ██    ██ ████  ████ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-█████   ██    ██ ██ ████ ██ ███████ ██      ███████ ███████ ██    ██    ██    
-██      ██    ██ ██  ██  ██ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
+
+    _____                    _____                _____                    _____                    _____                   _______         
+    ______                   /\    \                  /\    \              |\    \                  /\    \                  /\    \                 /::\    \        
+   |::|   |                 /::\    \                /::\    \             |:\____\                /::\    \                /::\    \               /::::\    \       
+   |::|   |                /::::\    \              /::::\    \            |::|   |               /::::\    \               \:::\    \             /::::::\    \      
+   |::|   |               /::::::\    \            /::::::\    \           |::|   |              /::::::\    \               \:::\    \           /::::::::\    \     
+   |::|   |              /:::/\:::\    \          /:::/\:::\    \          |::|   |             /:::/\:::\    \               \:::\    \         /:::/~~\:::\    \    
+   |::|   |             /:::/__\:::\    \        /:::/__\:::\    \         |::|   |            /:::/__\:::\    \               \:::\    \       /:::/    \:::\    \   
+   |::|   |            /::::\   \:::\    \      /::::\   \:::\    \        |::|   |           /::::\   \:::\    \              /::::\    \     /:::/    / \:::\    \  
+   |::|   |           /::::::\   \:::\    \    /::::::\   \:::\    \       |::|___|______    /::::::\   \:::\    \    ____    /::::::\    \   /:::/____/   \:::\____\ 
+______|::|___|___ ____  /:::/\:::\   \:::\    \  /:::/\:::\   \:::\    \      /::::::::\    \  /:::/\:::\   \:::\____\  /\   \  /:::/\:::\    \ |:::|    |     |:::|    |
+|:::::::::::::::::|    |/:::/__\:::\   \:::\____\/:::/  \:::\   \:::\____\    /::::::::::\____\/:::/  \:::\   \:::|    |/::\   \/:::/  \:::\____\|:::|____|     |:::|    |
+|:::::::::::::::::|____|\:::\   \:::\   \::/    /\::/    \:::\   \::/    /   /:::/~~~~/~~      \::/   |::::\  /:::|____|\:::\  /:::/    \::/    / \:::\    \   /:::/    / 
+~~~~~~|::|~~~|~~~       \:::\   \:::\   \/____/  \/____/ \:::\   \/____/   /:::/    /          \/____|:::::\/:::/    /  \:::\/:::/    / \/____/   \:::\    \ /:::/    /  
+   |::|   |           \:::\   \:::\    \               \:::\    \      /:::/    /                 |:::::::::/    /    \::::::/    /             \:::\    /:::/    /   
+   |::|   |            \:::\   \:::\____\               \:::\____\    /:::/    /                  |::|\::::/    /      \::::/____/               \:::\__/:::/    /    
+   |::|   |             \:::\   \::/    /                \::/    /    \::/    /                   |::| \::/____/        \:::\    \                \::::::::/    /     
+   |::|   |              \:::\   \/____/                  \/____/      \/____/                    |::|  ~|               \:::\    \                \::::::/    /      
+   |::|   |               \:::\    \                                                              |::|   |                \:::\    \                \::::/    /       
+   |::|   |                \:::\____\                                                             \::|   |                 \:::\____\                \::/____/        
+   |::|___|                 \::/    /                                                              \:|   |                  \::/    /                 ~~              
+    ~~                       \/____/                                                                \|___|                   \/____/                                  
+                                                                                                                                                                      
+
                                               
 `,
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2024 By Xefyrio",
   ];
 
   setTimeout(
@@ -1172,7 +1191,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by Xefyrio🐦‍🔥 %c 你正在访问Xefyrio🐦‍🔥の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1301,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| Xefyrio🐦‍🔥") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('Xefyrio🐦‍🔥的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -2789,7 +2808,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("28/12/2024 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -3174,10 +3193,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://graph-teal-six.vercel.app/img/95025518_p0.jpg);
+    --darkmode-bg:url(https://graph-teal-six.vercel.app/img/88065547_p1.jpg);
+    --mobileday-bg: url(https://graph-teal-six.vercel.app/img/95025518_p0.jpg);
+    --mobilenight-bg: url(https://graph-teal-six.vercel.app/img/88065547_p1.jpg);
   }`;
 }
 // 切换背景主函数
